@@ -263,5 +263,5 @@ The LLM operates **only on pre-validated, curated context** — never on raw dat
 
 This project was developed as an academic Data Management project.  
 All example results and images are from a pipeline run executed on **February 6th, 2026**, using *"data science"* as the topic.
----
+
 
