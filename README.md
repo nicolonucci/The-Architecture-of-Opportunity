@@ -67,7 +67,33 @@ Run **`Open_ai_key.ipynb`** to store your OpenAI API key:
 ```python
 OpenAI = ["YOUR_KEY"]
 ```
+---
 
+##  Repository Contents
+
+| File | Description |
+|------|-------------|
+| `Acquisition_and_storage.ipynb` | YouTube API acquisition + Google Trends CSV ingestion → SQL staging |
+| `Data_quality_and_analysis.ipynb` | Data cleaning, feature engineering, EDA and scoring |
+| `LLM_process.ipynb` | Constrained content ideation via GPT-4.1-mini |
+| `User_interface.ipynb` | Single entry point — run this to execute the full pipeline |
+| `Key_creator.ipynb` | Store your YouTube API keys |
+| `Open_ai_key.ipynb` | Store your OpenAI API key |
+| `Final Report - The Architecture of Opportunity.pdf` | Full academic report describing the system design and methodology |
+| `The Architecture of Opportunity.pdf` | Presentation slides |
+| `How to use.pdf` | Step-by-step usage guide for non-technical users |
+
+---
+
+## Try It — Sample Run
+
+The `Try it/` folder contains a **ready-to-explore example** based on a real pipeline run using *"data science"* as the topic (executed on February 6th, 2026).
+
+It includes:
+- Pre-downloaded Google Trends CSV files, ready to be used as input
+- All pipeline outputs from that run: cleaned tables, EDA reports, dashboards and LLM-generated content suggestions
+
+This lets you explore the results of a complete execution **without needing any API keys**, and gives you a concrete reference for what to expect when running the pipeline on your own topic.
 ### 3. Download Google Trends Data
 
 Go to [https://trends.google.com/trends/](https://trends.google.com/trends/) and download CSV files for your topic:
