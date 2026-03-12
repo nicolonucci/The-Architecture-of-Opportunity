@@ -65,7 +65,7 @@ youtube_keys = ["YOUR_KEY_1", "YOUR_KEY_2", ...]
 
 Run **`Open_ai_key.ipynb`** to store your OpenAI API key:
 ```python
-OpenAI = ["sk-proj-YOUR_OPENAI_KEY"]
+OpenAI = ["YOUR_KEY"]
 ```
 
 ### 3. Download Google Trends Data
