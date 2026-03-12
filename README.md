@@ -214,20 +214,3 @@ Window weights for recency scoring:
 
 This project was developed as an academic Data Management project. All results and images are from a run executed on February 6th, 2026, using "data science" as the topic.
 ```
-
----
-
-## 📝 NOTA IMPORTANTE ⚠️
-
-Nei file `Key_creator.ipynb` e `Open_ai_key.ipynb` che hai caricato sono presenti **chiavi API reali** (YouTube e OpenAI). Prima di pubblicare il repo su GitHub assicurati di:
-
-1. **Revocare/rigenerare tutte le chiavi** esposte nei notebook
-2. Aggiungere un file **`.gitignore`** con questo contenuto:
-```
-# .gitignore
-youtube_keys.txt
-Open_AI_key.txt
-*.txt
-**/*_engine.db
-**/*.ndjson
-*_Outputs/
