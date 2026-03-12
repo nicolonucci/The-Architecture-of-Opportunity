@@ -1,0 +1,42 @@
+LLM CONTENT STRATEGY DECISION
+Preferred content type : videos
+Confidence level       : medium
+Justification          : Among the three metrics tested, only comment_count is statistically significant with p_value=0.0041. The diff_pct for comment_count is -57.1%, which favors videos. The other two metrics are not statistically significant, so they do not provide strong evidence. Since the only significant metric favors videos, it is justified to prioritize videos with medium confidence due to limited significant evidence.
+
+VIDEO IDEAS
+VIDEO 1
+Title  : How to Crack AI Roles in IT in 2026 | Complete Roadmap & Skills for Data Scientist, ML Engineer, GenAI Engineer
+Tags   : AI roles 2026, Data Scientist career, Machine Learning Engineer, GenAI Engineer roadmap, AI job preparation, Data Science career 2026, AI skills 2026, IT AI jobs
+Keywords : how to crack AI roles in IT 2026, data scientist career roadmap 2026, machine learning engineer skills 2026, genai engineer job preparation, AI roles in IT 2026, data science career growth 2026, best AI jobs 2026, skills for AI engineer
+Publish time : Sunday at 01:00
+
+VIDEO 2
+Title  : 2026 Data Scientist Roadmap from Zero to Advanced | Complete Guide to Become a Top Data Scientist
+Tags   : Data Scientist roadmap 2026, Become data scientist, Data science career guide, Advanced data science skills, Data science beginner to pro, Data science learning path, Data science 2026, Data science career tips
+Keywords : how to become data scientist 2026, data scientist roadmap from zero, advanced data science skills 2026, data science career guide 2026, top data scientist skills, data science learning path 2026, data science beginner to advanced, best data science roadmap
+Publish time : Tuesday at 15:00
+
+VIDEO 3
+Title  : Full Stack Data Science with Generative AI & Agentic AI Tutorials | 12 Weekends Batch Complete Course 2026
+Tags   : Full stack data science 2026, Generative AI tutorials, Agentic AI course, Data science full course, AI tutorials 2026, Generative AI and data science, Agentic AI explained, Complete data science training
+Keywords : full stack data science 2026, generative AI tutorials 2026, agentic AI data science course, complete data science course 2026, AI and data science tutorials, generative AI training 2026, agentic AI explained 2026, data science full course
+Publish time : Wednesday at 23:00
+
+REEL IDEAS
+REEL 1
+Title  : The Struggle of Live Tech Interviews 🐶 | Data Science Memes #shorts
+Tags   : datascience, interview, techmemes, careeradvice, jobinterview, shorts
+Keywords : data science interview, tech interview struggles, data science memes, job interview tips, interview preparation
+Publish time : Sunday at 23:00
+
+REEL 2
+Title  : 🧠 El mayor error en Data Science con IA | Avoid This Common Mistake!
+Tags   : datascience, artificialintelligence, machinelearning, shorts, ai, mistakes
+Keywords : data science mistakes, artificial intelligence errors, machine learning tips, common AI errors, data science with AI
+Publish time : Wednesday at 0:00
+
+REEL 3
+Title  : Deloitte Data Analyst Certification | Boost Your Career in Data Analytics #shorts
+Tags   : dataanalytics, dataanalyst, certification, datascience, careergrowth, shorts
+Keywords : Deloitte data analyst certification, data analyst certification, data analytics career, data science certification, certified data analyst
+Publish time : Monday at 21:00

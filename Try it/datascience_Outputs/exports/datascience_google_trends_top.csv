@@ -1,0 +1,60 @@
+query,search interest,increase percent,keyword,query_type,window_days,window_start,window_end,logical_name,source_file,ingested_at
+data science projects,100,450%,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+master data science,89,10%,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+data science master,86,0%,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+master in data science,34,-50%,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+data science sapienza,29,40%,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+machine learning,28,60%,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+sapienza,28,30%,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+data science polito,19,40%,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+data science unipd,13,70%,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+r for data science,9,110%,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+genomic data science,9,450%,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+data science cos'è,6,60%,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+data science unitn,6,0%,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+data science unisa,4,-20%,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+ibm data science professional certificate,3,250%,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+best colleges for computer science,2,Breakout,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+kids science experiments at home,2,Breakout,data science,top,7,2026-01-30,2026-02-06 08:46:00,top_query_data science_7d,searched_with_top-queries_IT_20260130-0000_20260206-0846.csv,2026-02-06 19:52:47.158935+00:00
+master data science,100,9%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data science master,99,5%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data science projects,79,190%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data science sapienza,64,600%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+unipd,48,650%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+business data science,48,-30%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+machine learning,48,3%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+master in data science,41,-20%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+sapienza,32,110%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+munich data science institute,28,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data science polito,25,200%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+moodle,23,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+unito,18,160%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+bocconi,17,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data science and management,17,-70%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data science courses,17,-50%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data analyst,17,20%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+phd data science,16,-7%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data science unipd,16,20%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data scientist,15,20%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data science bicocca,12,40%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+unimib,11,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data science unimib,10,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+r for data science,10,10%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+coursera,8,0%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data science cos'è,8,-30%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data science unitn,8,30%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+python data analysis,7,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+genomic data science,7,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data science unisa,6,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data science unina,5,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data science with python,5,-50%,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data science course online,4,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+towards data science,3,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+almalaurea,3,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+ibm data science professional certificate,2,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+epj data science,2,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data quality management,2,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+python data science handbook,2,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+kids science experiments at home,2,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+what is a data pipeline,1,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00
+data governance frameworks,1,Breakout,data science,top,14,2026-01-23,2026-02-06 08:46:00,top_query_data science_14d,searched_with_top-queries_IT_20260123-0000_20260206-0846.csv,2026-02-06 19:52:47.161183+00:00

@@ -1,0 +1,55 @@
+YouTube EDA Report - DATASCIENCE (TOP PERFORMERS)
+    DATASET BREAKDOWN
+Total Records: 660
+   Videos: 379 (57.4%)
+   Reels:  281 (42.6%)
+
+    DETAILED STATISTICS (Full Breakdown)
+   VIDEOS STATISTICS:
+               count     mean       std   min   25%    50%    75%     90%     95%       max
+view_count     379.0  1725.28  13312.26  51.0  94.5  203.0  774.0  2023.8  4867.3  251389.0
+like_count     379.0    73.98    405.58   0.0   6.0   12.0   29.5   112.4   208.4    6528.0
+comment_count  379.0     6.32     21.57   0.0   0.0    1.0    4.0    10.2    25.1     272.0
+
+   REELS STATISTICS:
+               count     mean       std   min    25%    50%     75%     90%     95%       max
+view_count     281.0  1902.94  14056.36  51.0  141.0  513.0  1180.0  1791.0  2543.0  231721.0
+like_count     281.0    52.05    461.28   0.0    6.0   13.0    25.0    44.0    87.0    7711.0
+comment_count  281.0     2.71      9.74   0.0    0.0    0.0     2.0     6.0     8.0     138.0
+
+    STATISTICAL SIGNIFICANCE (T-Test Results)
+    view_count     : p=0.8696 Not Significant | Reels Avg is 10.3% Higher
+    like_count     : p=0.5255 Not Significant | Reels Avg is 29.6% Lower
+    comment_count  : p=0.0041 SIGNIFICANT | Reels Avg is 57.1% Lower
+
+    TEMPORAL ANALYSIS DATA (Graph Data)
+
+   Median Views by Day:
+Type        Reels  Videos
+day_name                 
+Friday      216.0   255.0
+Monday      457.0   192.5
+Saturday    585.5   247.5
+Sunday     1028.0   145.0
+Thursday    336.5   266.0
+Tuesday     458.0   238.0
+Wednesday   606.0   155.0
+
+   Best Day to Post (Highest Median Views):
+    Videos: Thursday (266 views)
+    Reels:  Sunday (1,028 views)
+    SEGMENTATION DATA (Graph Data)
+
+   Raw Counts by Segment:
+Type     Reels  Videos
+segment               
+Low         74     147
+Medium      85     134
+High       122      98
+
+   Percentage Split:
+Type     Reels  Videos
+segment               
+Low       33.5    66.5
+Medium    38.8    61.2
+High      55.5    44.5
