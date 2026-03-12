@@ -3,18 +3,18 @@
 
 > *"Can subjective content ideation be replaced by deterministic data pipelines?"*
 
-**Authors:** Francesco Colombini · Nicolò Nucci  
+**Authors:**  Nicolò Nucci · Francesco Colombini 
 **Course:** Data Management Project
 
 ---
 
-## 📖 Abstract
+## Abstract
 
 The creator economy faces a fundamental information asymmetry: platforms provide abundant retrospective analytics but negligible predictive support. This project engineers a three-tier local architecture that synthesizes search intent signals (**Demand**) from Google Trends with empirically validated performance metrics (**Supply**) from YouTube. Through rigorous ELT enforcement and statistical quality constraints, creative ideation is treated as a data engineering challenge — where generative outputs are constrained by statistical evidence rather than plausible speculation.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 ```
 ┌─────────────────────────────────────────────────────┐
 │              User Interface & Orchestration          │
@@ -48,7 +48,7 @@ The pipeline follows an **ELT** (Extract, Load, Transform) pattern with 4 functi
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Prerequisites
 ```bash
@@ -101,41 +101,41 @@ The pipeline then runs **fully automatically**.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
-📦 project-root/
-├── 📓 User_interface.ipynb          ← START HERE
-├── 📓 Acquisition_and_storage.ipynb
-├── 📓 Data_quality_and_analysis.ipynb
-├── 📓 LLM_process.ipynb
-├── 📓 Key_creator.ipynb
-├── 📓 Open_ai_key.ipynb
-├── 🔑 youtube_keys.txt
-├── 🔑 Open_AI_key.txt
-├── 📄 searched_with_rising-queries_*.csv  (×4 windows)
-├── 📄 searched_with_top-queries_*.csv     (×2 windows)
+project-root/
+├── User_interface.ipynb          ← START HERE
+├── Acquisition_and_storage.ipynb
+├── Data_quality_and_analysis.ipynb
+├── LLM_process.ipynb
+├── Key_creator.ipynb
+├── Open_ai_key.ipynb
+├── youtube_keys.txt
+├── Open_AI_key.txt
+├── searched_with_rising-queries_*.csv  (×4 windows)
+├── searched_with_top-queries_*.csv     (×2 windows)
 │
-└── 📂 {topic}_Outputs/
-    ├── 📂 storage/
+└── {topic}_Outputs/
+    ├── storage/
     │   └── {topic}_engine.db              ← SQLite database
-    ├── 📂 exports/
+    ├── exports/
     │   ├── {topic}_discovery.ndjson
     │   ├── {topic}_stats.ndjson
     │   ├── {topic}_google_trends_rising.csv
     │   ├── {topic}_google_trends_top.csv
     │   └── {topic}_llm_result.txt         ← Final output
-    └── 📂 analysis/
-        ├── 📂 complete/
+    └── analysis/
+        ├── complete/
         │   ├── Master_COMPLETE_Dashboard.png
         │   └── {topic}_complete_eda_report.txt
-        └── 📂 interesting/
+        └── interesting/
             ├── Master_INTERESTING_Dashboard.png
             └── {topic}_interesting_eda_report.txt
 ```
 
 ---
 
-## 🧮 Core Metrics & Scoring
+## Youtube Core Metrics & Scoring
 
 ### Feature Engineering
 
@@ -163,20 +163,7 @@ The top 20% by each score are unioned into the **"Interesting Videos"** set used
 
 ---
 
-## 🤖 LLM Output
-
-For each run, GPT-4.1-mini generates **3 long-form video concepts** and **3 short-form reel concepts**, each including:
-- Proposed **title**
-- Recommended **tags**
-- Search-aligned **keywords**
-- Optimal **publication time**
-- A **content type decision** (Videos vs Reels) backed by Welch's t-test results
-
-The LLM operates **only on pre-validated, curated context** — never on raw data.
-
----
-
-## ⚙️ Google Trends Temporal Fingerprinting
+## Google Trends Temporal Fingerprinting
 
 Each rising query receives a **4-digit binary fingerprint** encoding breakout presence across time windows:
 ```
@@ -193,7 +180,20 @@ Window weights for recency scoring:
 
 ---
 
-## ⚠️ Limitations
+## LLM Output
+
+For each run, GPT-4.1-mini generates **3 long-form video concepts** and **3 short-form reel concepts**, each including:
+- Proposed **title**
+- Recommended **tags**
+- Search-aligned **keywords**
+- Optimal **publication time**
+- A **content type decision** (Videos vs Reels) backed by Welch's t-test results
+
+The LLM operates **only on pre-validated, curated context** — never on raw data.
+
+---
+
+## Limitations
 
 - **YouTube API quota**: ~10 API keys needed for meaningful coverage. Production use requires a quota extension via the YouTube API Compliance Audit.
 - **Google Trends**: Manual CSV export required (no official API). Enterprise DaaS (e.g. DataForSEO) can automate this.
@@ -202,7 +202,7 @@ Window weights for recency scoring:
 
 ---
 
-## 📚 References
+## References
 
 - [YouTube Data API v3](https://developers.google.com/youtube/v3)
 - [Google Trends Terms](https://policies.google.com/terms)
@@ -210,7 +210,6 @@ Window weights for recency scoring:
 
 ---
 
-## 📜 License
+## License
 
 This project was developed as an academic Data Management project. All results and images are from a run executed on February 6th, 2026, using "data science" as the topic.
-```
