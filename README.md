@@ -161,39 +161,89 @@ OS = 0.4 × ER_pct + 0.4 × (1 − EE_pct) + 0.2 × (1 − View_pct)
 
 The top 20% by each score are unioned into the **"Interesting Videos"** set used by the LLM.
 
----
+##  Google Trends Signal Processing
 
-## Google Trends Temporal Fingerprinting
-
-Each rising query receives a **4-digit binary fingerprint** encoding breakout presence across time windows:
-```
-Pattern "1011" → breakout in 60d, 14d, 7d windows (absent in 30d)
-```
-
-Window weights for recency scoring:
-| Window | Weight |
-|--------|--------|
-| 7 days | 8× |
-| 14 days | 4× |
-| 30 days | 2× |
-| 60 days | 1× |
+The pipeline treats **Rising** and **Top** queries as fundamentally different demand signals and processes them through independent validation and ranking workflows.
 
 ---
 
-## LLM Output
+###  Rising Queries — Emerging Trend Detection
+
+Rising queries capture anomalous or accelerating search growth. Each query is evaluated across **4 temporal windows** (7, 14, 30, 60 days) and assigned a **4-digit binary fingerprint** encoding whether a breakout signal was detected in each window.
+```
+Pattern "1011" → breakout detected in 60d ✓ | 30d ✗ | 14d ✓ | 7d ✓
+Pattern "0001" → brand-new spike, only in 7d window (highest priority)
+Pattern "1111" → persistent trend across all windows
+```
+
+A **log-weighted recency score** is computed before aggregating across windows:
+```
+row_score = window_weight × log(1 + growth_pct)
+```
+
+| Window | Weight | Rationale |
+|--------|--------|-----------|
+| 7 days | **8×** | Most actionable, highest recency |
+| 14 days | **4×** | Short-term confirmation |
+| 30 days | **2×** | Medium-term context |
+| 60 days | **1×** | Baseline reference |
+
+Queries are ranked **first by temporal pattern** (structural trend shape), then by recency score within each group. The **top 30%** are selected as canonical rising demand signals.
+
+---
+
+###  Top Queries — Stable High-Demand Detection
+
+Top queries represent established, high-volume search interest rather than sudden growth. Analysis is restricted to **short-term windows only** (7 and 14 days), reflecting their role as indicators of current sustained demand.
+
+Each query receives a **2-digit binary fingerprint**:
+```
+Pattern "11" → present in both 7d and 14d windows  (highest priority)
+Pattern "01" → present only in 7d window
+Pattern "10" → present only in 14d window
+```
+
+When a query appears in both windows, the **7-day signal takes priority** as the more recent and actionable source. A composite score is then computed:
+```
+final_score = 0.7 × search_interest + 0.3 × growth_pct
+```
+
+> The 70/30 weighting deliberately prioritizes **absolute search volume over growth rate** — Top queries represent established demand, not emerging spikes.
+
+Queries are ranked hierarchically by pattern (`11 > 01 > 10`), then by composite score within each group. The **top 20%** are selected as canonical stable demand signals.
+
+---
+
+###  How the Two Signals Combine
+
+| Dimension | Rising Queries | Top Queries |
+|-----------|---------------|-------------|
+| **Signal type** | Emerging / accelerating trends | Stable, high-volume demand |
+| **Time windows** | 7, 14, 30, 60 days | 7, 14 days only |
+| **Fingerprint** | 4-digit binary (`1011`) | 2-digit binary (`11`) |
+| **Scoring priority** | Recency-weighted growth | Absolute search interest |
+| **Selection threshold** | Top 30% | Top 20% |
+| **LLM role** | Secondary angle, CTR boost | Core SEO foundation |
+
+In the LLM prompt, **Top queries anchor the content strategy** (titles, primary keywords), while **Rising queries add topical freshness** as secondary angles — without becoming the main subject unless also supported by Top query data.
+
+---
+
+## 🤖 LLM Output
 
 For each run, GPT-4.1-mini generates **3 long-form video concepts** and **3 short-form reel concepts**, each including:
+
 - Proposed **title**
 - Recommended **tags**
 - Search-aligned **keywords**
 - Optimal **publication time**
 - A **content type decision** (Videos vs Reels) backed by Welch's t-test results
 
-The LLM operates **only on pre-validated, curated context** — never on raw data.
+The LLM operates **only on pre-validated, curated context** — never on raw data. Every suggestion is traceable back to a specific scored video or ranked query.
 
 ---
 
-## Limitations
+##  Limitations
 
 - **YouTube API quota**: ~10 API keys needed for meaningful coverage. Production use requires a quota extension via the YouTube API Compliance Audit.
 - **Google Trends**: Manual CSV export required (no official API). Enterprise DaaS (e.g. DataForSEO) can automate this.
@@ -202,14 +252,16 @@ The LLM operates **only on pre-validated, curated context** — never on raw dat
 
 ---
 
-## References
+##  References
 
 - [YouTube Data API v3](https://developers.google.com/youtube/v3)
 - [Google Trends Terms](https://policies.google.com/terms)
 - [OpenAI API](https://openai.com/api/)
 
 ---
+##  License
 
-## License
+This project was developed as an academic Data Management project.  
+All example results and images are from a pipeline run executed on **February 6th, 2026**, using *"data science"* as the topic.
+---
 
-This project was developed as an academic Data Management project. All results and images are from a run executed on February 6th, 2026, using "data science" as the topic.
